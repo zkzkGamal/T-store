@@ -1,0 +1,215 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+    <title>Cart</title>
+    <link rel="Stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" />
+    <script src="https://kit.fontawesome.com/9517a35da7.js" crossorigin="anonymous"></script>
+    <link href="C:\Users\osama\OneDrive\سطح المكتب\html222\CHI-project\fontawesome-free-5.15.4-web\css\all.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="./Home%20Page.html"><img src="./images/logo.png" height="80px" width="80px" /></a>
+            </div>
+            <nav>
+                <ul id="menuitems">
+                    <li><a href="./Home%20Page.html">Home</a></li>
+                    <li><a href="./Sign%20Page.html?">Account </a></li>
+                    <li><a href="">Find Store</a></li>
+                    <li><a href="">Wish list</a></li>
+                    <li><a href="./Cart.html">Cart</a></li>
+                </ul>
+            </nav>
+            <img src="./images/R-removebg-preview.png" class="cart" />
+                <img src="./images/menu-icon-19353.png" class="menu-icon" onclick="menutoggle()" />
+        </div>
+
+    </div>
+
+
+    <div class="small-container cart-page">
+        <table>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Total Cash</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="./images/witer product-16.jpg" />
+                        <div>
+                            <p>Lace-up Relax Fit Jogger Pants</p>
+                            <small>250 EGP</small>
+                            <br />
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <input type="number" value="1" min="1" class="Quantity" id = "input1"/>
+                </td>
+                <td id = "txt1">
+                    250 EGP
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="./images/witer product-2.jpg" />
+                        <div>
+                            <p>Hooded Seasonal Thin Raincoat</p>
+                            <small>299 EGP</small>
+                            <br />
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <input type="number" value="1" min="1" class="Quantity" id = "input2"/>
+                </td>
+                <td id = "txt2">
+                    299 EGP
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="./images/printed t-shirt-7.jpg" />
+                        <div>
+                            <p>Superman Licensed Back Printed</p>
+                            <small>250 EGP</small>
+                            <br />
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <input type="number" value="1" min="1" class="Quantity" id = "input3" />
+                </td>
+                <td id = "txt3">
+                    250 EGP
+                </td>
+            </tr>
+        </table>
+
+        <div class="total-price">
+            <table>
+                <tr>
+                    <td>subtotal</td>
+                    <td id = "sub">799 EGP</td>
+                </tr>
+                <tr>
+                    <td>Tax</td>
+                    <td>31 EGP</td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td id = 'total'>830 EGP</td>
+                </tr>
+            </table>
+        </div>
+
+        <input type="submit" class="btn"/>
+     </div>
+     <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>
+                        Feel Free To Download Our App On
+                    </h3>
+                    <br />
+                    <div class="app-logo">
+                        <a href="www.play-store/T-store.com" target="_blank"> <img src="./images/play-store.png" /> </a>
+                        <a href="www.App-store/T-store.com" target="_blank"> <img src="./images/app-store.png" /> </a>
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <a href="./Home%20Page.html"><img src="./images/logo-footer.png" class="logo-footer" /></a>
+
+                </div>
+                <div class="footer-col-3">
+
+                    <br />
+                    <ul>
+                        <a href="">
+                        <li>Coupons</li> </a>
+                        <a href="">
+                        <li>Privacy and policy</li> </a>
+                        <a href="">
+                        <li>Our Stores</li> </a>
+
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Kindly Follow us on :</h3>
+                    <br />
+                    <ul>
+
+                        <li><a href="www.twitter/T-store.com" target="_blank"><i class="fa-brands fa-square-twitter fa-2xl"></i></a></li>
+                        <li> <br></li>
+                        <li><a href="www.facebook/T-store.com" target="_blank"><i class="fa-brands fa-square-facebook fa-2xl"></i></a></li>
+                        <li> <br></li>
+                        <li><a href="www.instagram/T-store.com" target="_blank"><i class="fa-brands fa-square-instagram fa-2xl"></i></a></li>
+                        <li> <br></li>
+                        <li><a href="https://api.whatsapp.com/send?phone=+201065107742" target="_blank"><i class="fa-brands fa-square-whatsapp fa-2xl"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr />
+            <p class="copyright">All Copy rights reserved 2022 - T-Store</p>
+        </div>
+    </div>
+
+
+
+    <script>
+        var menuitems = document.getElementById("menuitems")
+
+        menuitems.style.maxHeight = "0px";
+        function menutoggle() {
+            if (menuitems.style.maxHeight == "0px") {
+                menuitems.style.maxHeight = "200px";
+            }
+            else {
+                menuitems.style.maxHeight = "0px";
+            }
+
+        }
+        window.onload = () => {
+            let Quant = document.getElementsByClassName('Quantity'); 
+            let subtotal = 0;
+            let varrr = 0
+            for(let i = 0; i < Quant.length; i++)
+                {
+                    Quant[i].addEventListener("input",function() {
+                        console.log(this.value);
+                        varrr = subtotal;
+                        subtotal -= varrr;
+                        
+                        if (this.id == 'input1') { document.getElementById('txt1').innerText = this.value * 250 + " EGP"; }
+                        if (this.id == 'input2') { document.getElementById('txt2').innerText = this.value * 299 + " EGP"; }
+                        if (this.id == 'input3') { document.getElementById('txt3').innerText = this.value * 250 + " EGP"; }
+                        
+                        document.getElementById('sub').innerHTML = (document.getElementById('input1').value*250 + document.getElementById('input2').value*299 + document.getElementById('input3').value*250 )+ ' EGP';
+                        console.log(subtotal);
+                        document.getElementById('total').innerHTML = (document.getElementById('input1').value*250 + document.getElementById('input2').value*299 + document.getElementById('input3').value*250 + 31) + ' EGP';
+
+
+
+                    } );
+                }
+        }
+        
+    </script>
+</body>
+</html>
